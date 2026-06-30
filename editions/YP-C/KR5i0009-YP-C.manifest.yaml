@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0009/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0009/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上道德大天尊說道元一氣經
+  date: '2015-08-29 17:48:29.441508'
+  source:
+    repository: kanripo
+    path: KR5i0009
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0009_001-YP-C.yaml, hash: 'sha256:7d0b450602f61e24054a9098c57e10f55eb90a71e144b6247fc3a4f6518e6592'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0009_001-YP-C.markers.yaml, hash: 'sha256:5b22dbc8d18a0dd47cd1d2f0115cb47f053288413c8029f1f242bf667a181bbd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0009_06weiji-01-0012a
+    span:
+    - body
+    - 0
+    - 302
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:c71b29bd1b98e94759bd2f32c8b13896c42a9680dd903e01ade7031c4680fd28
